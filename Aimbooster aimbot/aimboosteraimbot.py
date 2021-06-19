@@ -11,7 +11,7 @@ def started():
     while keyboard.is_pressed('s') == False:
         try:
             #looking for target (using image of target.png)
-            x,y = pyautogui.locateCenterOnScreen("target.png",confidence = 0.8,grayscale=True)
+            x,y = pyautogui.locateCenterOnScreen("target.png",confidence = 0.8,grayscale=True,region=(482,65,984,780))
             #Clicks on target
             pyautogui.click(x,y)
         except:
