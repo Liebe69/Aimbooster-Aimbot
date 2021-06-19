@@ -1,7 +1,7 @@
 import pyautogui,keyboard,time
 
 #This program is an aimbot for aimbooster.com
-#NOTE: PLEASE USE F11 WHEN PLAYING TO AVOID THE MOUSE FLICKING TO THE TAB ICON
+#Coded by Liebe69_ on tiktok; just added an update where the region is only the aimbooster game window, so you don't need to play F11 anymore!
 
 print("Press s to start/stop the program")
 
